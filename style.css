@@ -1,0 +1,119 @@
+body{
+    background-image: url(fond2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.main{
+    margin: 0px 30% 20px 30%;
+    padding: 0px 30px 30px 30px;
+    
+    
+}
+
+body{
+    background-color: #B4BBC9;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 0;
+}
+input{
+    background-color: #189494;
+    font-family: Helvetica;
+    font-size: 40px;
+    color: white;
+    border:transparent;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    display: block;
+    margin: auto;    
+}
+
+input:hover{
+    background-color: #0F5D5D;
+}
+
+.go{
+    background-color: #189494;
+    font-family: Helvetica;
+    font-size: 80px;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    margin: auto;
+    
+}
+div p{
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 30px;
+}
+
+.divbutton{
+    display: block;
+    
+}
+
+.divbutton button:hover{
+    background-color: #0F5D5D;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #189494;
+    border-radius: 10px;
+    width: 330px;
+    margin: 0;
+
+}
+
+li {
+    float: left;
+    
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 20px;
+
+}
+
+li a:hover  {
+    background-color: #0F5D5D;
+}
+
+@media only screen and (max-width: 1292px){
+    
+    div.main{
+        margin: 8px 8px 8px 8px;
+        padding: 0px 30px 30px 30px;
+    }
+
+    body{
+        background-color: white;
+        background-image: url(fond2r.jpg);
+        background-position: 0px 200px;
+    }
+}
