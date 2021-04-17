@@ -135,25 +135,7 @@ li a:hover  {
     }
 
     body{
-        min-height: 1000@media only screen and (max-width: 1256px){
-    
-            div.main{
-                margin: 8px 8px 8px 8px;
-                padding: 0px 30px 30px 30px;
-            }
-        
-            body{
-                min-height: 991px;
-                background-color: white;
-                background-image: url(fond2r.jpg);
-                background-position: 0px 0px;
-            }
-            .menu{
-                display: block;
-                margin: auto;
-                width: fit-content;
-            }
-        }px;
+        min-height: 1000px;
         background-color: white;
         background-image: url(fond2r.jpg);
         background-position: bottom;
