@@ -35,7 +35,8 @@ input{
     width: 230px;
     height: 60px;
     display: block;
-    margin: auto;    
+    margin: auto;
+    box-shadow: 3px 3px 7px #0F5D5D;
 }
 
 input:hover{
@@ -56,6 +57,7 @@ input:hover{
     padding-right: 0px;
     display: block;
     margin: auto;
+    box-shadow: 3px 3px 7px #0F5D5D;
     
 }
 div p{
@@ -76,6 +78,8 @@ div.result p{
     border-radius: 10px;
     width: 220px;
     padding: 10px;
+    box-shadow: 3px 3px 7px #0F5D5D;
+
 }
 
 .divbutton{
@@ -90,8 +94,6 @@ div.result p{
 
 
 
-
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -100,6 +102,7 @@ ul {
     border-radius: 10px;
     width: fit-content;
     margin: 0;
+    box-shadow: 3px 3px 7px #0F5D5D;
 
 }
 
