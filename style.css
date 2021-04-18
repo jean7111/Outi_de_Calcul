@@ -36,11 +36,11 @@ input{
     height: 60px;
     display: block;
     margin: auto;
-    box-shadow: 3px 3px 7px #0F5D5D;
+    box-shadow: 4px 4px 7px #126F6F;
 }
 
 input:hover{
-    background-color: #0F5D5D;
+    background-color: #126F6F;
 }
 
 .go{
@@ -57,9 +57,11 @@ input:hover{
     padding-right: 0px;
     display: block;
     margin: auto;
-    box-shadow: 3px 3px 7px #0F5D5D;
+    box-shadow: 4px 4px 7px #126F6F;
     
 }
+
+
 div p{
     font-family: Helvetica;
     text-align: center;
@@ -78,7 +80,7 @@ div.result p{
     border-radius: 10px;
     width: 220px;
     padding: 10px;
-    box-shadow: 3px 3px 7px #0F5D5D;
+    box-shadow: 4px 4px 7px #126F6F;
 
 }
 
@@ -89,7 +91,7 @@ div.result p{
 }
 
 .divbutton button:hover{
-    background-color: #0F5D5D;
+    background-color: #126F6F;
 }
 
 
@@ -102,7 +104,7 @@ ul {
     border-radius: 10px;
     width: fit-content;
     margin: 0;
-    box-shadow: 3px 3px 7px #0F5D5D;
+    box-shadow: 4px 4px 7px #126F6F;
 
 }
 
@@ -123,7 +125,11 @@ li a {
 }
 
 li a:hover  {
-    background-color: #0F5D5D;
+    background-color: #126F6F;
+}
+
+li a:active{
+    background-color: #093838;
 }
 
 
