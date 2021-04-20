@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Consommation</title>
+        <link rel="icon" href="petrol.png">
+    </head>
+
+    <body>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="statistique.html">Statistiques</a></li>
+                <li><a href="option.html">Options</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+
+            <div>
+                <h1>Calcul de consommation</h1>
+            </div>
+
+            <div>
+                <p>Nombre de km</p><input type="number" id="input1" class="input1">
+            </div>
+            <div>
+                <p>Nombre de litres</p><input type="number" id="input2" class="input2">
+            </div>
+
+            <div class="divbutton">
+                <button onclick="CalculConso()" class="go">GO</button>
+            </div>
+
+            <div class="result">
+                <p id="reponse">...</p>
+                <p id="aug"></p>
+            </div>
+            
+        </div>
+    </body>
+</html>
