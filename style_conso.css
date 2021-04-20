@@ -43,6 +43,8 @@ input:hover{
     background-color: #126F6F;
 }
 
+
+
 .go{
     background-color: #189494;
     font-family: Helvetica;
@@ -116,7 +118,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 5.3px;
     text-decoration: none;
     font-family: Helvetica;
     font-size: 20px;
@@ -133,6 +135,18 @@ li a:active{
 }
 
 
+
+.btn_conso{
+    
+    background-color: #189494;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 14px 5px;
+    margin: 30px 30px 30px 30px;
+}
 
 
 
