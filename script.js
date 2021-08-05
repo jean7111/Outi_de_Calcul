@@ -16,8 +16,3 @@ function CalculConso() {
     }
 
 }
-
-// function change_conso_base() {
-//     var conso_base = document.getElementById("input-conso-base").value;
-
-// }
