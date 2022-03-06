@@ -1,5 +1,6 @@
 
-var conso_base = 7.3;
+var conso_min = 6.5;
+var conso_max = 7.5;
 
 function CalculConso() {
     var NbKm = document.getElementById("input1").value;
@@ -8,11 +9,15 @@ function CalculConso() {
     if (NbKm != "" && NbLitre != "")
     {
         var resultConso = Number(NbLitre) * 100 / Number(NbKm);
-
-        var augmentation = ((Number(resultConso) - conso_base)/ conso_base) * 100;
-        augmentation = String(Math.round(augmentation*100)/100);
         document.getElementById("reponse").innerHTML = Math.round(resultConso*100)/100 + " L/100 km";
-        document.getElementById("aug").innerHTML = Math.round(augmentation*100)/100 + " %";  
+
+        var augmentation_min = ((Number(resultConso) - conso_min)/ conso_min) * 100;
+        augmentation_min = String(Math.round(augmentation_min*100)/100);
+
+        var augmentation_max = ((Number(resultConso) - conso_max)/ conso_max) * 100;
+        augmentation_max = String(Math.round(augmentation_max*100)/100);
+        
+        document.getElementById("aug").innerHTML = Math.round(augmentation_max*100)/100 + " % " + Math.round(augmentation_min*100)/100 + " %";
     }
 
 }
