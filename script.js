@@ -1,5 +1,5 @@
 
-var conso_base = 6.3;
+var conso_base = 7.3;
 
 function CalculConso() {
     var NbKm = document.getElementById("input1").value;
