@@ -1,3 +1,4 @@
 # Outi_de_Calcul
-
-lol
+ 
+ 
+Un simple calculateur de consomation
